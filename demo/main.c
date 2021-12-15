@@ -6,7 +6,8 @@
 #include "func.h"
 #include "measure.h"
 
-
+//代码版本管理软件git
+//上传到github远程代码仓库
 
 int main(void)
 {
