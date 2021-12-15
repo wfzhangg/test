@@ -16,8 +16,14 @@ float get_max_val(float a, float b)
 
 float get_min_val(float a, float b)
 {
+	float ret = 0；
+	return ret;
+}
+
+float get_ave_val(float a, float b)
+{
 	float ret;
-	ret = (a+b) - get_max_val(a, b);
+	ret = (a+b)/2.0;
 
 	return ret;
 }
