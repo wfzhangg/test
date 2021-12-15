@@ -7,9 +7,6 @@ float get_max_val(float a, float b)
 {
 	float ret;
 	ret = a;
-	if (a < b) {
-		ret = b;	
-	}
 
 	return ret;
 }
@@ -26,4 +23,9 @@ float get_ave_val(float a, float b)
 	ret = (a+b)/2.0;
 
 	return ret;
+}
+
+void put_a_char(void)
+{
+	sprintf(txt, "put a char = %c \n", 'A');
 }
