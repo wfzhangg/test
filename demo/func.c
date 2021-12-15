@@ -13,3 +13,11 @@ float get_max_val(float a, float b)
 
 	return ret;
 }
+
+float get_min_val(float a, float b)
+{
+	float ret;
+	ret = (a+b) - get_max_val(a, b);
+
+	return ret;
+}
